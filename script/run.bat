@@ -1,3 +1,3 @@
 @echo off
 
-clojure -X clojure-project.main/run %*
+clojure -M -e "(require (symbol \"%1\"))"
