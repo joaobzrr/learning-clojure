@@ -1,0 +1,12 @@
+# Clojure / tools
+.nrepl-port
+.cpcache/
+.clj-kondo/
+.lsp/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+
+# JVM
+*.class
