@@ -13,4 +13,4 @@
                  {:player "A" :score 30}]]
     (is (= "A" (top-player results))))
   (let [results []]
-    (is (= "" (top-player results)))))
+    (is (= nil (top-player results)))))
